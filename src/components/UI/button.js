@@ -4,19 +4,19 @@ import './style.scss'
 export const UIButton = ({
     children,
     className,
-    component: Component,
+    isDisabled,
     ...restProps
 }) => {
     return (
-        <Component
+        <button
+            type="button"
+            disabled={isDisabled}
             className={`ui-button ${className}`}
             {...restProps}
         >
             {children}
-        </Component>
+        </button>
     );
 };
 
-UIButton.defaultProps = {
-    component: 'a',
-};
+

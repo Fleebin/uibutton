@@ -6,6 +6,9 @@ const App = () => {
     <>
       <UIButton className="primary">Teste</UIButton>
       <UIButton className="secondary">Teste</UIButton>
+
+      <UIButton disabled={true} className="primary">Teste</UIButton>
+      <UIButton disabled={true} className="secondary">Teste</UIButton>
     </>
   );
 }

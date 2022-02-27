@@ -1,12 +1,11 @@
 .ui-button {
     display: block;
     text-align: center;
-
+    border: unset;
     color: #fff;
 
     padding: 20px 16px;
     width: 311px;
-
     &.primary {
         background: #026c00;
         &:hover {
@@ -14,6 +13,9 @@
         }
         &:active {
             background: #013c00;
+        }
+        &:disabled {
+            background: #b7d0b6;
         }
     }
     &.secondary {
@@ -23,6 +25,9 @@
         }
         &:active {
             background: #dcac0d;
+        }
+        &:disabled {
+            background: #ffe58d;
         }
     }
 }
