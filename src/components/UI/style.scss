@@ -1,0 +1,28 @@
+.ui-button {
+    display: block;
+    text-align: center;
+
+    color: #fff;
+
+    padding: 20px 16px;
+    width: 311px;
+
+    &.primary {
+        background: #026c00;
+        &:hover {
+            background: #079504;
+        }
+        &:active {
+            background: #013c00;
+        }
+    }
+    &.secondary {
+        background: #f7c346;
+        &:hover {
+            background: #ffdf77;
+        }
+        &:active {
+            background: #dcac0d;
+        }
+    }
+}
