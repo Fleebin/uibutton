@@ -16,6 +16,7 @@
         }
         &:disabled {
             background: #b7d0b6;
+            cursor: context-menu;
         }
     }
     &.secondary {
@@ -28,6 +29,7 @@
         }
         &:disabled {
             background: #ffe58d;
+            cursor: context-menu;
         }
     }
 }
