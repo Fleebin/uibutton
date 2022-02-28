@@ -8,6 +8,7 @@ export const UIButton = ({
     className,
     isDisabled,
     icon,
+    children,
     ...restProps
 }) => {
     return (
@@ -17,6 +18,7 @@ export const UIButton = ({
             className={`ui-button ${className}`}
             {...restProps}
         >
+            {children}
             <span>
                 {icon === 'arrow-right' ? <Arrow /> : ''}
                 {icon === 'check' ? <Check /> : ''}
