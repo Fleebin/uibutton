@@ -5,15 +5,22 @@ import './style.scss'
 const App = () => {
   return (
     <>
-      <UIButton className="primary">Primario</UIButton>
-      <UIButton className="secondary">Secundario</UIButton>
+      <h1>primary</h1>
+      <UIButton className="primary">Text</UIButton>
 
-      <UIButton className="primary" icon="arrow-right"> </UIButton>
-      <UIButton className="primary" icon="check"></UIButton>
-      <UIButton className="primary" icon="refresh"></UIButton>
+      <h1>secondary</h1>
+      <UIButton className="secondary">Text</UIButton>
 
-      <UIButton disabled={true} className="primary">Desabilitado</UIButton>
-      <UIButton disabled={true} className="secondary">Desabilitado</UIButton>
+      <p>icon</p>
+      <div className='icons'>
+        <UIButton className="primary">Text</UIButton>
+        <UIButton className="primary icon" icon="arrow-right">Text </UIButton>
+        <UIButton className="primary icon" icon="check">Text</UIButton>
+        <UIButton className="primary icon" icon="refresh">Text</UIButton>
+      </div>
+
+      <p>disabled</p>
+      <UIButton disabled={true} className="primary">Text</UIButton>
     </>
   );
 }

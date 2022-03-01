@@ -20,9 +20,9 @@ export const UIButton = ({
         >
             {children}
             <span>
-                {icon === 'arrow-right' ? <Arrow /> : ''}
-                {icon === 'check' ? <Check /> : ''}
-                {icon === 'refresh' ? <Refresh /> : ''}
+                {icon === 'arrow-right' ? <Arrow /> : null}
+                {icon === 'check' ? <Check /> : null}
+                {icon === 'refresh' ? <Refresh /> : null}
             </span>
         </button>
     );

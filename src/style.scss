@@ -1,3 +1,23 @@
-button {
-    margin: 15px;
+body {
+    background: #ebeadf;
+    h1 {
+        letter-spacing: -1.2px;
+        font-feature-settings: "tnum" on, "lnum" on;
+        font-size: 24px;
+        color: #000000;
+    }
+    p {
+        text-decoration-line: underline;
+        letter-spacing: -0.05em;
+        font-feature-settings: "tnum" on, "lnum" on;
+        font-size: 24px;
+        color: #000000;
+    }
+    button {
+        margin: 15px;
+    }
+    .icons {
+        display: flex;
+        flex-direction: row;
+    }
 }
