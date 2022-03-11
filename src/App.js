@@ -1,5 +1,5 @@
 import React from 'react';
-import { UIButton } from './components/UI/button'
+import { UIButton } from './components/Button/button'
 import './style.scss'
 
 const App = () => {
